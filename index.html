@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="ToothSmile Vue JS Project">
+		<meta name="author" content="JAIRI IDRISS">
+        <title>Tooth smile</title>
+		<link rel="icon" href="Design/images/icon-2.png"/>
+        <!-- Bootstrap CDN-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+        <!-- Vue JS CDN -->
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+		<!-- FontAwesome CDN -->
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+		<!-- My CSS File-->
+		<link rel="stylesheet" href="Design/css/style.css">
+    </head>
+    <body>
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;min-height: 70px;">
+			<div class="container">
+				<a class="navbar-brand" href="#">
+					<i class="fas fa-tooth" style="color: #2e3192;"></i>
+					ToothSmile
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  		<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  		<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+				  			<a class="nav-link" href="#home">Home</a>
+						</li>
+						<li class="nav-item">
+				  			<a class="nav-link" href="#services">Services</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#testimonials">Testimonials</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Contact</a>
+						</li>
+			  		</ul>
+				</div>
+			</div>
+		</nav>
+		<div style="height: 70px;"></div>
+        <!-- Home Section -->
+        <section class="home-section" id="home">
+			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="Design/images/1st-slider.jpg" class="d-block w-100" alt="First Slider">
+				 	</div>
+				 	<div class="carousel-item">
+						<img src="Design/images/2nd-slider.jpg" class="d-block w-100" alt="Second Slider">
+				  	</div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+        </section>
+
+		<!-- Services Section -->
+		<section class="services-section" id="services">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-6">
+						<div class="service-column">
+							<div class="service-icon">
+								<img src="Design/images/icon-1.png" alt="Root Canal Specialist">
+							</div>
+							<div class="service-text">
+								<h5>
+									<span>
+										Root Canal Specialist
+									</span>
+								</h5>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="service-column">
+							<div class="service-icon">
+								<img src="Design/images/icon-2.png" alt="Alignment Specialist">
+							</div>
+							<div class="service-text">
+								<h5>
+									<span>
+										Alignment Specialist
+									</span>
+								</h5>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="service-column">
+							<div class="service-icon">
+								<img src="Design/images/icon-3.png" alt="Cosmetic Dentistry">
+							</div>
+							<div class="service-text">
+								<h5>
+									<span>
+										Cosmetic Dentistry
+									</span>
+								</h5>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="service-column">
+							<div class="service-icon">
+								<img src="Design/images/icon-4.png" alt="Oral Hygiene Experts">
+							</div>
+							<div class="service-text">
+								<h5>
+									<span>
+										Oral Hygiene Experts
+									</span>
+								</h5>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="service-column">
+							<div class="service-icon">
+								<img src="Design/images/icon-5.png" alt="Live Dental Advisory">
+							</div>
+							<div class="service-text">
+								<h5>
+									<span>
+										Live Dental Advisory
+									</span>
+								</h5>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="service-column">
+							<div class="service-icon">
+								<img src="Design/images/icon-6.png" alt="Cavity Inspection">
+							</div>
+							<div class="service-text">
+								<h5>
+									<span>
+										Cavity Inspection
+									</span>
+								</h5>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Testimonials Section -->
+		<section class="testimonials-section" id="testimonials" style="position: relative;padding: 50px 30px;background-color: #EEF7FF;">
+			<div class="container">
+				<div class="heading" style="text-align: center;margin-bottom: 30px;">
+					<h3>
+						Testimonials
+					</h3>
+				</div>
+				<div class="row">
+					<div class="col-md-4" v-for="testimonial in  currentTestimonial">
+						<div class="testimonial-column">
+							<h4 class="testimonial-title">
+								{{testimonial.title}}
+							</h4>
+							<p>
+								{{testimonial.p}}
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<span class="nextPrevBttn prevBttn" @click = "prevTestimonial" style="position: absolute; top:50%;cursor: pointer;">
+				<i class="fas fa-arrow-left"></i>
+			</span>
+			<span class="nextPrevBttn nextBttn" @click = "nextTestimonial" style="position: absolute;top: 50%;right: 30px;cursor: pointer;">
+				<i class="fas fa-arrow-right"></i>
+			</span>
+		</section>
+
+		<!-- Services Section 2 -->
+		<section class="services-section-2" id="services-2" style="padding: 50px 0px;">
+			<div class="container">
+				<div>
+					<ul class="services-picker">
+						<li v-for = "(service, index) in services">
+							<button v-bind:class="{ 'activeServicePicker' : activeService == index}" @click = "toggleTab(index)">
+								{{service.tab}}
+							</button>
+						</li>
+					</ul>
+					<div v-for = "(service,index) in services" class="service-tab" v-bind:class="{ 'activeServiceTab' : activeService == index}">
+						<div class="row">
+							<div class="col-md-6">
+								<h3 class="service2-title">
+									{{service.title}}
+								</h3>
+								<p class="service2-p">
+									{{service.p}}
+								</p>
+							</div>
+							<div class="col-md-6">
+								<div style="max-width: 400px;margin: auto;">
+									<img :src="service.image" :alt="service.title" class = "service2Img">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact & Appointment Section -->
+		<section class="contact-and-appointment" id="contact">
+			<div class="row" style="margin: 0px;">
+				<div class="col-md-6" style="padding: 0px;">
+					<div class="contact-left">
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div style="text-align: center;">
+						<h3 style="color: #1e2d78;">
+							Contact & Appointment
+						</h3>
+						<p style="color: #656565;">
+							Keep in touch with us and request an appointment
+						</p>
+					</div>
+					<form action="" id="contact-form" @submit="checkForm" method="POST" style="padding: 50px;">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<input type="text" class="form-control"  v-model="first_name" placeholder="First Name">
+									<div class="invalid-feedback" style="display: block;" v-if="first_name === null">
+										First name required
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<input type="text" class="form-control"  v-model="last_name" placeholder="Last Name">
+									<div class="invalid-feedback" style="display: block;" v-if="last_name === null">
+										Last name required
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<input type="text" class="form-control" v-model="email" placeholder="Email Adress">
+									<div class="invalid-feedback" style="display: block;" v-if="email === null">
+										Valid email required
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<input type="tel" class="form-control" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Phone Number" v-model="phone">
+									<small class="form-text text-muted">Format: 123-45-678</small>
+									<div class="invalid-feedback" style="display: block;" v-if="phone === null">
+										Phone is required
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<textarea class="form-control my-textarea" cols="10" rows="3" v-model = "message" style="resize: none;" placeholder="Your Message"></textarea>
+							<div class="invalid-feedback" style="display: block;" v-if="message === null">
+								Message is required
+							</div>
+						</div>
+						<p>
+							<input type="submit" value="Send message" class="submit-bttn">
+						</p>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer Section -->
+		<section class="widget_section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-6">
+						<div class="footer_widget">
+							<h3 style="font-size: 30px;color: white;">
+								<i class="fas fa-tooth" style="color: #f4572e;"></i>
+								ToothSmile
+							</h3>
+							<p>
+								This is ToothSmile, a place dedicated to clear, white & perfect smiles.
+							</p>
+							<ul class="widget_social">
+								<li><a href="#" data-toggle="tooltip" title="Facebook"><i class="fab fa-facebook-f fa-2x"></i></a></li>
+								<li><a href="#" data-toggle="tooltip" title="Twitter"><i class="fab fa-twitter fa-2x"></i></a></li>
+								<li><a href="#" data-toggle="tooltip" title="Instagram"><i class="fab fa-instagram fa-2x"></i></a></li>
+								<li><a href="#" data-toggle="tooltip" title="LinkedIn"><i class="fab fa-linkedin fa-2x"></i></a></li>
+								<li><a href="#" data-toggle="tooltip" title="Google+"><i class="fab fa-google-plus-g fa-2x"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						 <div class="footer_widget">
+							<h3>Headquarters</h3>
+							<p>
+								962 Fifth Avenue, 3rd Floor New York, NY10022
+							</p>
+							<p>
+								contact@toothsmile.com
+								<br>
+								(+123) 456 789 101    
+							</p>
+						 </div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="footer_widget">
+							<h3>
+								Opening Hours
+							</h3>
+							<ul class="opening_time">
+								<li>Monday: 11:30am - 2:00pm</li>
+								<li>Tuesday: 11:30am - 2:00pm</li>
+								<li>Wednesday: 11:30am - 2:00pm</li>
+								<li>Thursday: 11:30am - 2:00pm</li>
+								<li>Friday: 11:30am - 2:00pm</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="footer_widget">
+							<h3>Subscribe to our contents</h3>
+							<div class="subscribe_form">
+								<form action="#" class="subscribe_form" novalidate="true">
+									<input type="email" name="EMAIL" id="subs-email" class="form_input" placeholder="Email Address...">
+									<button type="submit" class="submit">SUBSCRIBE</button>
+									<div class="clearfix"></div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Footer Bottom -->
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<p style="margin: 0px;">
+							Copyright © 2021 ToothSmile. All Rights Reserved.
+						</p>
+					</div>
+					<div class="col-md-6">
+						<ul class="social-net">
+							<li>
+								<a href="https://www.facebook.com/" target="_blank">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com/" target="_blank">
+									<i class="fab fa-instagram"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- Jquery CDN-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<!-- Bootstrap JS CDN-->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+		<!-- VUE JS SCRIPT-->
+		<script src="Design/js/main.js"></script>
+    </body>
+</html>
